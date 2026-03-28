@@ -1,0 +1,17 @@
+{
+  "name": "base-quiz-sprint",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "app",
+    "contracts"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace app",
+    "build": "npm run build --workspace app",
+    "preview": "npm run preview --workspace app",
+    "contracts:test": "npm run test --workspace contracts",
+    "contracts:deploy:base-sepolia": "npm run deploy:base-sepolia --workspace contracts",
+    "contracts:deploy:base": "npm run deploy:base --workspace contracts"
+  }
+}
