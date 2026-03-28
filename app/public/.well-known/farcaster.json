@@ -1,0 +1,16 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Base Quiz Sprint",
+    "subtitle": "Web3 quiz mini-game for Base",
+    "iconUrl": "https://base-quiz-sprint.vercel.app/icon.svg",
+    "homeUrl": "https://base-quiz-sprint.vercel.app",
+    "splashImageUrl": "https://base-quiz-sprint.vercel.app/social-card.svg",
+    "splashBackgroundColor": "#081124"
+  }
+}
